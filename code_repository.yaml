@@ -1,7 +1,5 @@
 templated-files:
-  dummy:
     path: "dummy.json"
-    values:
       Value1:
         question: "Who should be the king?"
         label:  "king"
