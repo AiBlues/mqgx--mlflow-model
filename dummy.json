@@ -1,13 +1,13 @@
 {
     "Westeros":
     {
-        "Queen": {{queen}},
+        "Queen": {{ queen }},
         "King": "Bran Stark",
         "Kingdoms":
         [
             {"Kingdom": "North",
-            "Queen": {{queen}},
-            "King": {{king}}
+            "Queen": {{ queen }},
+            "King": {{ king }}
             }
         ]
     }

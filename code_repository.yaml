@@ -6,7 +6,7 @@ templated-files:
           default: "John Snow"
         - question: "Who should be the queen?"
           label: "queen"
-          default: "Daenerys Stormborn of House Targaryen, the First of Her Name, Queen of the Andals and the First Men, Protector of the Seven Kingdoms, the Mother of Dragons, the Khaleesi of the Great Grass Sea, the Unburnt, the Breaker of Chains,"
+          default: "Daenerys Stormborn of House Targaryen"
 environment:
 setting: "Default"
 train_script: "train.py"
