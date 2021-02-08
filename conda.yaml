@@ -1,9 +1,8 @@
-name: tutorial
+name: env
 channels:
   - defaults
+  - conda-forge
 dependencies:
-  - numpy=1.14.3
-  - pandas=0.22.0
-  - scikit-learn=0.19.1
+  - python=3.8.6
   - pip:
-    - mlflow
+    - boto3
