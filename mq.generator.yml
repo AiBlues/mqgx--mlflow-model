@@ -10,3 +10,6 @@ variables:
 include:
   - "*.py"
   - "*.md"
+scripts:
+  - label: "Some command"
+    cmd: "echo {{ AUTHOR }}"
