@@ -11,5 +11,5 @@ include:
   - "*.py"
   - "*.md"
 scripts:
-  - label: "Some command"
+  - name: "Some command"
     cmd: "echo {{ AUTHOR }}"
