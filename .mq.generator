@@ -1,0 +1,12 @@
+variables:
+  - name: "PROJECT_NAME"
+    label: "Project Name"
+    default: "{{ DIRECTORY }}"
+  - name: "DESCRIPTION"
+    label: "Description"
+  - name: "AUTHOR"
+    label: "Author"
+    default: "{{ USER }}"
+include:
+  - "*.py"
+  - "*.md"
