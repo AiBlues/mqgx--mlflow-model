@@ -205,7 +205,10 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-## Maquette
+### IntelliJ, PyCharm ###
+.idea
+
+### Maquette ###
 env/
 mlruns/
 .mq/
