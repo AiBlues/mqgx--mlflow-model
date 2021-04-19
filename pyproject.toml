@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "mlflow--sample-project"
+name = "{{ PROJECT_NAME }}"
 version = "0.1.0"
-description = "Some tests with MLFlow"
-authors = ["Michael Wellner <michaelwellner@kpmg.com>"]
+description = "{{ DESCRIPTION }}"
+authors = ["{{ AUTHOR }}"]
 license = "Apache-2.0"
 
 [tool.poetry.dependencies]

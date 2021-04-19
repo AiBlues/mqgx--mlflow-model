@@ -1,3 +1,7 @@
+# {{  PROJECT_NAME }}
+
+{{ DESCRIPTION }}
+
 # Sample ML Flow Project
 
 ... works with Maquette MLFlow Stack

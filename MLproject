@@ -1,4 +1,4 @@
-name: tutorial
+name: {{ PROJECT_NAME }}
 
 conda_env: conda.yaml
 
