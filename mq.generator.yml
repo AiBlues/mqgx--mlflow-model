@@ -19,5 +19,14 @@ include:
 scripts:
   - name: "Adopt project structure"
     cmd: "mv src {{ MODULE_NAME }}"
-  - name: "Initialize workspace"
-    cmd: "conda env create -f conda.yaml -p ./env && conda activate ./env && poetry install -vvv"
+message: >-
+  #
+  # Successfully created new workspace {{ PROJECT_NAME }}!
+  #
+  # Run the following commands to use your new workspace
+  #
+  #   $ conda env create -f conda.yaml -p ./env
+  #   $ cd {{ DIRECTORY }}
+  #   $ conda activate ./env
+  #   $ poetry install -vvv
+  #
