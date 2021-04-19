@@ -17,5 +17,7 @@ include:
   - "*.py"
   - "*.md"
 scripts:
-  - name: "Some command"
-    cmd: "echo {{ AUTHOR }}"
+  - name: "Adopt project structure"
+    cmd: "mv src {{ MODULE_NAME }}"
+  - name: "Initialize workspace"
+    cmd: "conda env create -f conda.yaml -p ./env && conda activate ./env && poetry install -vvv"
