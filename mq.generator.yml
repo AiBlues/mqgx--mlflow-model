@@ -19,11 +19,11 @@ scripts:
   - name: "Initialize git repository"
     cmd: "git init && git add . && git commit -am \"Initial commit. Powered by Maquette.\""
 message: |-
-  Successfully created new workspace {{ PROJECT_NAME }}!
-  
-  Run the following commands to use your new workspace
-    $ conda env create -f conda.yaml -p ./env
-    $ cd {{ DIRECTORY }}
-    $ conda activate ./env
-    $ poetry install -vvv
+  # Successfully created new workspace {{ PROJECT_NAME }}!
+  #
+  # Run the following commands to use your new workspace
+  #   $ conda env create -f conda.yaml -p ./env
+  #   $ cd {{ DIRECTORY }}
+  #   $ conda activate ./env
+  #   $ poetry install -vvv
   
