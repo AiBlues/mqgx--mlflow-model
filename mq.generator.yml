@@ -19,6 +19,8 @@ include:
 scripts:
   - name: "Adopt project structure"
     cmd: "mv src {{ MODULE_NAME }}"
+  - name: "Initialize git repository"
+    cmd: "git init && git add . && git commit -am \"Initial commit. Powered by Maquette.\""
 message: >-
   #
   # Successfully created new workspace {{ PROJECT_NAME }}!
