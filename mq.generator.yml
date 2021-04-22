@@ -26,8 +26,8 @@ message: |-
   #
   # Run the following commands to use your new workspace
   #
-  #   $ conda env create -f conda.yaml -p ./env
   #   $ cd {{ DIRECTORY }}
+  #   $ conda env create -f conda.yaml -p ./env
   #   $ conda activate ./env
   #   $ poetry install -vvv
   #
