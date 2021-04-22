@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import ElasticNet
 from urllib.parse import urlparse
 
-import {{MODULE_NAME}}.features
+from {{MODULE_NAME}}.features import fetch_data
 
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
@@ -26,7 +26,7 @@ def eval_metrics(actual, pred):
 
 
 if __name__ == "__main__":
-    print(features.fetch_data())
+    print(fetch_data())
 
     warnings.filterwarnings("ignore")
     np.random.seed(40)
@@ -81,6 +81,6 @@ if __name__ == "__main__":
             # There are other ways to use the Model Registry, which depends on the use case,
             # please refer to the doc for more information:
             # https://mlflow.org/docs/latest/model-registry.html#api-workflow
-            mlflow.sklearn.log_model(lr, "model", registered_model_name="ElasticnetWineModel")
+            mlflow.sklearn.log_model(lr, "model", registered_model_name="{{ MODEL_NAME }}")
         else:
             mlflow.sklearn.log_model(lr, "model")
