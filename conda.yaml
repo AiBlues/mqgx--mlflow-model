@@ -4,6 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.8.6
+  - pip=21.0.1
   - pip:
     - mlflow
     - boto3
